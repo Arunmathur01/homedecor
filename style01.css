@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+    background: white;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: rgb(29, 5, 108);
+    padding: 10px 20px;
+    font-size: 20px;
+
+}
+
+.topic {
+    background: rgb(13, 13, 90);
+    color: white;
+    font-size: 3em;
+    text-align: center;
+}
+
+.head {
+    background: white;
+    font-size: 2em;
+    text-align: center;
+}
+
+.define {
+    background: pink;
+    font-size: 20px;
+}
+
+.design {
+    grid-template-columns: repeat(3,minmax(0,1fr));
+    grid-gap:2rem;
+    gap:2rem;
+    display:grid;
+    margin: 0;
+    padding:100px;
+    box-sizing: border-box;
+    border: 0 solid;
+    rotate: right;
+}
+.texts{
+text-align: center;
+text-decoration: none;
+font-size: 20px;
+}
+footer{
+background-color: black;
+}
+.footercontainer{
+width: 100%;
+padding:70px 30px 20px;
+}
+.socialicons{
+display:flex;
+justify-content: center;
+}
+.socialicons a{
+text-decoration: none;
+padding: 10px;
+background-color: white;
+margin: 10px;
+border-radius: 50%;
+}
+.socialicons a i{
+font-size: 2em;
+color: black;
+opacity:0.9;
+}
+.socialicons a:hover{
+background-color: black;
+transition: 0.5s;
+}
+.socialicons a:hover i{
+color:white;
+transition: 0.5;
+
+}
+.footernav {
+margin:30px 0;
+}
+.footernav ul{
+display: flex;
+justify-content: center;
+}
+.footernav ul li a{
+color: white;
+margin: 20px;
+text-decoration: none;
+font-size: 1.3em;
+}
